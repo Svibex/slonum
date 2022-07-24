@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap')
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap')
 
 $backgroundColor: #FFFFFF
 $mainColor: #14A76C
@@ -11,3 +11,14 @@ $additionalFontColor: #4F5569
 
 $mainFont: 'Nunito', sans-serif
 $additionalFont: 'Rubik', sans-serif
+
+@mixin flex-space-between ()
+  display: flex
+  align-items: center
+  justify-content: space-between
+
+
+@mixin flex-center ()
+  display: flex
+  align-items: center
+  justify-content: center
