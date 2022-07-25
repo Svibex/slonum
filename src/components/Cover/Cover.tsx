@@ -4,9 +4,9 @@ import Timer from "../Timer/Timer";
 import "./Cover.css";
 
 const Cover = () => {
-    const space = require("../../images/cover/space.png") as string;
-    const girl = require("../../images/cover/girl.png") as string;
-    const paperAirplanes = require("../../images/cover/paperAirplanes.png") as string;
+    const space = require("../../assets/image/cover/space.png") as string;
+    const girl = require("../../assets/image/cover/girl.png") as string;
+    const paperAirplanes = require("../../assets/image/cover/paperAirplanes.png") as string;
 
     return (
         <div className="cover">

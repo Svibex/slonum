@@ -2,7 +2,7 @@ import React from "react";
 import "./Header.css";
 
 const Header = () => {
-    const logo = require("../../images/header/logo.png") as string;
+    const logo = require("../../assets/image/header/logo.png") as string;
 
     return (
         <header className="header">
