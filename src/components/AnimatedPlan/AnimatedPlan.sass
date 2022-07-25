@@ -1,0 +1,48 @@
+@import "../../styles/basic"
+
+.animatedPlan
+  background: url("../../assets/image/animatedPlan/large_clouds.png")
+  height: 907px
+  width: 1923px
+  margin: 160px auto 0
+
+.animatedPlan__container
+  @include flex-center
+  flex-direction: column
+  position: relative
+
+.animatedPlan__clouds, .animatedPlan__birds,
+.animatedPlan__point
+  position: absolute
+
+#point-1
+  top: 0
+  left: 0
+
+#point-2
+  top: 40%
+  left: 40%
+
+#point-3
+  top: 80%
+  left: 80%
+
+.animatedPlan__point_number
+  background: $mainAccentColor
+  color: $backgroundColor
+  font-family: $additionalFont
+  font-size: 40px
+  font-weight: 700
+  line-height: 60px
+  width: 80px
+  height: 80px
+  border-radius: 40px
+  @include flex-center
+
+.animatedPlan__point_text
+  font-family: $additionalFont
+  font-size: 20px
+  line-height: 24px
+  letter-spacing: 0.04em
+  text-align: left
+  color: $additionalFontColor
