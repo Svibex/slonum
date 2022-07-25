@@ -7,14 +7,14 @@ const Header = () => {
     return (
         <header className="header">
             <div className="header__container">
-                <div className="header_logo">
-                    <img src={logo} alt="logo"/>
+                <div className="header__logo">
+                    <img src={logo} alt="Логотип"/>
                     <div className="header__title">
-                        <p className="header__title-text1">Слон</p>
-                        <p className="header__title-text2">УМ</p>
+                        <p className="header__title_text1">Слон</p>
+                        <p className="header__title_text2">УМ</p>
                     </div>
                 </div>
-                <button>Войти</button>
+                <button className="header__button">Войти</button>
             </div>
         </header>
     );

@@ -1,0 +1,74 @@
+@import "../../styles/basic"
+
+.cover
+  position: relative
+  top: -10px
+
+.cover__container
+  height: 810px
+  width: 1676px
+  left: 262px
+  display: flex
+  align-items: flex-start
+  justify-content: space-between
+  margin: 0 auto
+
+.cover__textGroup
+  margin-top: 328px
+  width: 653px
+
+.cover__info
+  font-family: $additionalFont
+  font-size: 15px
+  line-height: 25px
+  letter-spacing: 0.08em
+  text-align: left
+  text-transform: uppercase
+  color: $accentFontColor
+
+.cover__title
+  font-family: $mainFont
+  font-size: 55px
+  font-weight: 700
+  line-height: 67px
+  text-align: left
+  color: $mainFontColor
+  margin-top: 0
+
+.cover__text
+  font-family: $additionalFont
+  font-size: 18px
+  line-height: 27px
+  letter-spacing: 0.05em
+  text-align: left
+  color: $mainFontColor
+  margin-top: 40px
+
+.cover__timerGroup
+  @include flex-space-between
+
+.cover__button
+  height: 60px
+  width: 300px
+  border-radius: 15px
+  background: $mainColor
+  box-shadow: 0 15px 30px 0 #19DA8C40
+  border: none
+  color: $backgroundColor
+
+
+.cover__imgGroup
+  position: relative
+
+.cover__space
+  background: url("../../images/cover/space-background.png") no-repeat
+
+.cover__girl
+  position: absolute
+  top: 570px
+  left: 300px
+
+.cover__paperAirplanes
+  position: absolute
+  top: 800px
+  left: 100px

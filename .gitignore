@@ -25,3 +25,4 @@ yarn-error.log*
 /.idea/slonum.iml
 /.idea/modules.xml
 /.idea/misc.xml
+/.idea/watcherTasks.xml

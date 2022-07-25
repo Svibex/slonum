@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
+#root {
+  position: relative;
+}
+
+body {
+  margin: 0;
+}
+
+button {
+  border-radius: 15px;
+  padding: 10px;
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-align: center;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.cover {
+  position: relative;
+  top: -10px;
+}
+
+.cover__container {
+  height: 810px;
+  width: 1676px;
+  left: 262px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.cover__textGroup {
+  margin-top: 328px;
+  width: 653px;
+}
+
+.cover__info {
+  font-family: "Rubik", sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0.08em;
+  text-align: left;
+  text-transform: uppercase;
+  color: #9FA0A7;
+}
+
+.cover__title {
+  font-family: "Nunito", sans-serif;
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 67px;
+  text-align: left;
+  color: #1F1D2A;
+  margin-top: 0;
+}
+
+.cover__text {
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: #1F1D2A;
+  margin-top: 40px;
+}
+
+.cover__timerGroup {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cover__button {
+  height: 60px;
+  width: 300px;
+  border-radius: 15px;
+  background: #14A76C;
+  box-shadow: 0 15px 30px 0 rgba(25, 218, 140, 0.2509803922);
+  border: none;
+  color: #FFFFFF;
+}
+
+.cover__imgGroup {
+  position: relative;
+}
+
+.cover__space {
+  background: url("../../images/cover/space-background.png") no-repeat;
+}
+
+.cover__girl {
+  position: absolute;
+  top: 570px;
+  left: 300px;
+}
+
+.cover__paperAirplanes {
+  position: absolute;
+  top: 800px;
+  left: 100px;
+}
+
+/*# sourceMappingURL=Cover.css.map */
