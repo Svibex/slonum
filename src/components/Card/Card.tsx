@@ -1,0 +1,17 @@
+import React from "react";
+import "./Card.css";
+
+const Card = ( props: {text:string, id:number} ) => {
+    const picture = require(`../../assets/image/card/${props.id}.png`) as string;
+
+    return (
+        <div className="card">
+            <img src={picture} alt="" />
+            <p className="card__text">
+                {props.text}
+            </p>
+        </div>
+    );
+};
+
+export default Card;

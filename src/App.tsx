@@ -1,12 +1,11 @@
 import React from "react";
-import Cover from "./components/Cover/Cover";
-import Description from "./components/Description/Description";
+import MainPage from "./components/MainPage/MainPage";
+
 
 function App() {
     return (
         <>
-            <Cover />
-            <Description />
+            <MainPage/>
         </>
     );
 }

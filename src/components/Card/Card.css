@@ -33,21 +33,20 @@ button:hover {
   color: #1F1D2A;
 }
 
-.description {
-  width: 790px;
-  margin: 200px auto 0;
+.card {
+  height: 170px;
+  width: 445px;
+  border-radius: 16px;
+  background: #FFFFFF;
+  box-shadow: 0 5px 30px 0 rgba(215, 211, 225, 0.5019607843);
 }
 
-.description__text {
-  font-family: "Rubik", sans-serif;
-  font-size: 22px;
-  line-height: 33px;
-  letter-spacing: 0.05em;
-  text-align: center;
+.card__text {
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-align: left;
 }
 
-.description__text_accent {
-  color: #14A76C;
-}
-
-/*# sourceMappingURL=Description.css.map */
+/*# sourceMappingURL=Card.css.map */
