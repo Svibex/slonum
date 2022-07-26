@@ -38,8 +38,22 @@
 
 .timer__colon {
   margin-top: -47px;
+  animation-name: invisible-colon;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
 }
 
+@keyframes invisible-colon {
+  0% {
+    opacity: 0;
+  }
+  33% {
+    opacity: 75%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
 .timer__text {
   font-family: "Nunito", sans-serif;
   font-size: 16px;
