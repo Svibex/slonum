@@ -42,3 +42,4 @@ yarn-error.log*
 /src/components/Subscribe/Subscribe.css.map
 /src/components/Footer/Footer.css.map
 /src/components/AnimatedSpace/AnimatedSpace.css.map
+/src/components/Timer/Timer.css.map

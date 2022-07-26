@@ -17,7 +17,7 @@ const RegistrationForm = () => {
                     <input type="checkbox"/>
                     <p>
                         Отправляя данные я соглашаюсь с
-                        <a href="#">Условиями конкурса</a> и <a href="#">Политикой обработки данных</a>
+                        <a href="/#">Условиями конкурса</a> и <a href="/#">Политикой обработки данных</a>
                     </p>
                     <div>
                         <button type="submit">
