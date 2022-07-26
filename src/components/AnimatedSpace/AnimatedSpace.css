@@ -2,10 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
 .animatedSpace {
   position: relative;
-}
-
-.animatedSpace__space {
-  background: url("../../assets/image/animatedSpace/space-background.png") no-repeat;
+  height: 693px;
+  width: 864px;
+  background: url("../../assets/image/animatedSpace/space-background.png") no-repeat, linear-gradient(326.12deg, rgb(93, 119, 255) 17.95%, rgb(101, 57, 193) 89.78%);
 }
 
 .animatedSpace__girl {
