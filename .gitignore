@@ -41,3 +41,4 @@ yarn-error.log*
 /src/components/Questions/Questions.css.map
 /src/components/Subscribe/Subscribe.css.map
 /src/components/Footer/Footer.css.map
+/src/components/AnimatedSpace/AnimatedSpace.css.map

@@ -67,24 +67,4 @@
   color: #FFFFFF;
 }
 
-.cover__imgGroup {
-  position: relative;
-}
-
-.cover__space {
-  background: url("../../assets/image/cover/space-background.png") no-repeat;
-}
-
-.cover__girl {
-  position: absolute;
-  top: 570px;
-  left: 300px;
-}
-
-.cover__paperAirplanes {
-  position: absolute;
-  top: 800px;
-  left: 100px;
-}
-
 /*# sourceMappingURL=Cover.css.map */

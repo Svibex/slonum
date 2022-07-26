@@ -2,11 +2,9 @@ import React from "react";
 import Header from "../Header/Header";
 import Timer from "../Timer/Timer";
 import "./Cover.css";
+import AnimatedSpace from "../AnimatedSpace/AnimatedSpace";
 
 const Cover = () => {
-    const space = require("../../assets/image/cover/space.png") as string;
-    const girl = require("../../assets/image/cover/girl.png") as string;
-    const paperAirplanes = require("../../assets/image/common/paperAirplanes.png") as string;
 
     return (
         <section className="cover">
@@ -23,11 +21,7 @@ const Cover = () => {
                         <Timer />
                     </div>
                 </div>
-                <div className="cover__imgGroup">
-                    <img className="cover__space" src={space} alt="Космос"/>
-                    <img className="cover__girl" src={girl} alt="Девочка"/>
-                    <img className="cover__paperAirplanes" src={paperAirplanes} alt="Бумажные самолетики"/>
-                </div>
+                <AnimatedSpace/>
             </div>
         </section>
     );
