@@ -26,3 +26,11 @@ yarn-error.log*
 /.idea/modules.xml
 /.idea/misc.xml
 /.idea/watcherTasks.xml
+/src/components/AnimatedPlan/AnimatedPlan.css.map
+/src/components/Card/Card.css.map
+/src/components/Cards/Cards.css.map
+/src/components/Cover/Cover.css.map
+/src/components/Description/Description.css.map
+/src/components/DiplomaInformation/DiplomaInformation.css.map
+/src/components/Header/Header.css.map
+/src/styles/variables.css.map

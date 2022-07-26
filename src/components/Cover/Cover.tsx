@@ -6,7 +6,7 @@ import "./Cover.css";
 const Cover = () => {
     const space = require("../../assets/image/cover/space.png") as string;
     const girl = require("../../assets/image/cover/girl.png") as string;
-    const paperAirplanes = require("../../assets/image/cover/paperAirplanes.png") as string;
+    const paperAirplanes = require("../../assets/image/common/paperAirplanes.png") as string;
 
     return (
         <div className="cover">
