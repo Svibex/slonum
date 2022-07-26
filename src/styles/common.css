@@ -34,4 +34,8 @@ button:hover {
   color: #1F1D2A;
 }
 
+li:hover {
+  cursor: pointer;
+}
+
 /*# sourceMappingURL=common.css.map */

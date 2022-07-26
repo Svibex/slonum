@@ -7,6 +7,7 @@ import DiplomaInformation from "../DiplomaInformation/DiplomaInformation";
 import Registration from "../Registration/Registration";
 import Questions from "../Questions/Questions";
 import Subscribe from "../Subscribe/Subscribe";
+import Footer from "../Footer/Footer";
 
 const MainPage = () => {
     return (
@@ -19,6 +20,7 @@ const MainPage = () => {
             <Registration/>
             <Questions/>
             <Subscribe/>
+            <Footer/>
         </>
     );
 };

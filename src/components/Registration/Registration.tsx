@@ -4,7 +4,7 @@ import "./Registration.css";
 
 const Registration = () => {
     const bookmark = require("../../assets/image/registration/bookmark.png") as string;
-    const vk = require("../../assets/image/registration/vk.png") as string;
+    const vk = require("../../assets/image/common/vk.png") as string;
     const ok = require("../../assets/image/registration/ok.png") as string;
 
     return (
