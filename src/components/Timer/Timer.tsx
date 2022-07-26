@@ -10,11 +10,11 @@ const Timer = () => {
 
     let interval: { current: NodeJS.Timeout | null } = useRef(null);
 
-    let today = new Date();
-    let tomorrow = new Date(today.getTime() + 2 * (24 * 60 * 60 * 1000));
-    let dayTomorrow = tomorrow.getDate();
-    let monthTomorrow = tomorrow.getMonth() + 1;
-    let yearTomorrow = tomorrow.getFullYear();
+    const nextDay = new Date();
+    const tomorrow = new Date(nextDay.getTime() + 2 * (24 * 60 * 60 * 1000));
+    const dayTomorrow = tomorrow.getDate();
+    const monthTomorrow = tomorrow.getMonth() + 1;
+    const yearTomorrow = tomorrow.getFullYear();
 
     function checkNumber(number: number): string {
         return number < 10 ? `0${number}` : number.toString()
@@ -36,7 +36,6 @@ const Timer = () => {
             setTimerHours(checkNumber(hours));
             setTimerMinutes(checkNumber(minutes));
             setTimerSeconds(checkNumber(seconds));
-
         }, 1000);
     };
 
