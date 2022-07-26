@@ -37,3 +37,5 @@ yarn-error.log*
 /src/styles/common.css.map
 /src/components/Registration/Registration.css.map
 /src/components/RegistrationForm/RegistrationForm.css.map
+/src/components/Question/Question.css.map
+/src/components/Questions/Questions.css.map
