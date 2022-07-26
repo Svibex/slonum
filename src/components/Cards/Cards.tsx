@@ -13,7 +13,7 @@ const Cards = () => {
     ];
 
     return (
-        <div className="cards">
+        <section className="cards">
             <div className="cards__container">
                 <h2 className="title">Для чего нужно участвовать</h2>
                 <div className="cards__list">
@@ -21,7 +21,7 @@ const Cards = () => {
                         <Card text={el} id={index + 1} key={index}/>)}
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

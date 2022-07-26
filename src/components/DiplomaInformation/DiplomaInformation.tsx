@@ -5,7 +5,7 @@ const DiplomaInformation = () => {
     const diploma = require("../../assets/image/diplomaInformation/diploma.png") as string;
 
     return (
-        <div className="diplomaInformation">
+        <section className="diplomaInformation">
             <div className="diplomaInformation__container">
                 <div>
                     <h2 className="title">Выдаём дипломы участникам</h2>
@@ -27,7 +27,7 @@ const DiplomaInformation = () => {
                 </div>
                 <img src={diploma} alt="Диплом участника"/>
             </div>
-        </div>
+        </section>
     );
 };
 

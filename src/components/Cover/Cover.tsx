@@ -9,7 +9,7 @@ const Cover = () => {
     const paperAirplanes = require("../../assets/image/common/paperAirplanes.png") as string;
 
     return (
-        <div className="cover">
+        <section className="cover">
             <div className="cover__container">
                 <Header />
                 <div className="cover__textGroup">
@@ -29,7 +29,7 @@ const Cover = () => {
                     <img className="cover__paperAirplanes" src={paperAirplanes} alt="Бумажные самолетики"/>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

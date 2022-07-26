@@ -8,7 +8,7 @@ const Registration = () => {
     const ok = require("../../assets/image/registration/ok.png") as string;
 
     return (
-        <div className="registration">
+        <section className="registration">
             <div className="registration__container">
                 <div className="registration__banner">
                     <img className="registration__bookmark" src={bookmark} alt="Скидка за репост"/>
@@ -38,7 +38,7 @@ const Registration = () => {
                 </div>
                 <RegistrationForm/>
             </div>
-        </div>
+        </section>
     );
 };
 

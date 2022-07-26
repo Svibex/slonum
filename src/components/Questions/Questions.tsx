@@ -13,13 +13,13 @@ const Questions = () => {
     ];
 
     return (
-        <div className="questions">
+        <section className="questions">
             <div className="questions__container">
             <h2 className="title questions__title">Вопрос/Ответ</h2>
             {questions.map((el, index) =>
                 <Question text={el} key={index}/>)}
             </div>
-        </div>
+        </section>
     );
 };
 

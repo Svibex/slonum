@@ -6,6 +6,7 @@ import AnimatedPlan from "../AnimatedPlan/AnimatedPlan";
 import DiplomaInformation from "../DiplomaInformation/DiplomaInformation";
 import Registration from "../Registration/Registration";
 import Questions from "../Questions/Questions";
+import Subscribe from "../Subscribe/Subscribe";
 
 const MainPage = () => {
     return (
@@ -17,6 +18,7 @@ const MainPage = () => {
             <DiplomaInformation/>
             <Registration/>
             <Questions/>
+            <Subscribe/>
         </>
     );
 };

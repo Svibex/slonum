@@ -7,7 +7,7 @@ const AnimatedPlan = () => {
     const birds = require("../../assets/image/animatedPlan/birds.png") as string;
 
     return (
-        <div className="animatedPlan">
+        <section className="animatedPlan">
             <div className="animatedPlan__container">
                 <h2 className="title">Пошаговый план</h2>
                 <img className="animatedPlan__clouds" src={clouds} alt="Облака"/>
@@ -26,7 +26,7 @@ const AnimatedPlan = () => {
                     <p className="animatedPlan__point_text">Загрузите рисунок Здесь или в Личном кабинете</p>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 
