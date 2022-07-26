@@ -34,3 +34,6 @@ yarn-error.log*
 /src/components/DiplomaInformation/DiplomaInformation.css.map
 /src/components/Header/Header.css.map
 /src/styles/variables.css.map
+/src/styles/common.css.map
+/src/components/Registration/Registration.css.map
+/src/components/RegistrationForm/RegistrationForm.css.map

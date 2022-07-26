@@ -4,6 +4,7 @@ import Description from "../Description/Description";
 import Cards from "../Cards/Cards";
 import AnimatedPlan from "../AnimatedPlan/AnimatedPlan";
 import DiplomaInformation from "../DiplomaInformation/DiplomaInformation";
+import Registration from "../Registration/Registration";
 
 const MainPage = () => {
     return (
@@ -13,6 +14,7 @@ const MainPage = () => {
             <Cards/>
             <AnimatedPlan/>
             <DiplomaInformation/>
+            <Registration/>
         </>
     );
 };
