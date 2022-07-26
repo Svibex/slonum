@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
+.registration {
+  margin-top: 200px;
+  width: 1920px;
+}
+
+.registration__container {
+  margin: 0 auto;
+  height: 692px;
+  width: 1369px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.registration__banner {
+  height: 476px;
+  width: 490px;
+  border-radius: 40px;
+  border: 3px solid #14A76C;
+  position: relative;
+  box-shadow: 0 5px 15px 0 rgba(20, 167, 114, 0.2);
+}
+
+.registration__bookmark {
+  position: absolute;
+  top: -17px;
+  left: 104px;
+}
+
+.registration__info {
+  margin-top: 136px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.registration__info_text {
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: #4F5569;
+}
+
+.registration__price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.registration__price_sale {
+  font-family: "Rubik", sans-serif;
+  font-size: 96px;
+  line-height: 114px;
+  text-align: right;
+  color: #1F1D2A;
+}
+
+.registration__price_withoutSale {
+  font-family: "Rubik", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: #1F1D2A;
+  text-decoration: 2px line-through #1F1D2A;
+}
+
+.registration__socialMedias {
+  background: #14A76C;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 78px;
+  width: 490px;
+  border-radius: 0 0 40px 40px;
+  margin-left: -3px;
+}
+
+.registration__socialMedias_text {
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.registration__icons_icon {
+  background: #FFFFFF;
+  border-radius: 4px;
+}
+
+/*# sourceMappingURL=Registration.css.map */
