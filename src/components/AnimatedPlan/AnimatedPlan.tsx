@@ -9,7 +9,7 @@ const AnimatedPlan = () => {
     return (
         <section className="animatedPlan">
             <div className="animatedPlan__container">
-                <h2 className="title">Пошаговый план</h2>
+                <h2 className="title">Пошаговый <span>план</span></h2>
                 <img className="animatedPlan__clouds" src={clouds} alt="Облака"/>
                 <img className="animatedPlan__birds" src={birds} alt="Птицы"/>
                 <img src={way} alt="Путь"/>

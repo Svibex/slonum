@@ -20,7 +20,7 @@ const Cards = () => {
     return (
         <section className="cards">
             <div className="cards__container">
-                <h2 className="title">Для чего нужно участвовать</h2>
+                <h2 className="title">Для чего <span>нужно</span> участвовать</h2>
                 <div className="cards__list">
                     {cards().map((el, index) =>
                         <Card text={el} id={index + 1} key={index}/>)}

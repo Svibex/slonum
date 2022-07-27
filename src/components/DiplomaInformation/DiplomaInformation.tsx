@@ -8,7 +8,7 @@ const DiplomaInformation = () => {
         <section className="diplomaInformation">
             <div className="diplomaInformation__container">
                 <div>
-                    <h2 className="title">Выдаём дипломы участникам</h2>
+                    <h2 className="title">Выдаём <span>дипломы</span> участникам</h2>
                     <div className="diplomaInformation__blockText">
                         <p>
                             Жюри конкурса рассмотрит работы и выделит победителей по городам и возрастным категориям, а

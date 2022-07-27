@@ -38,4 +38,10 @@ li:hover {
   cursor: pointer;
 }
 
+span {
+  text-decoration: 3px underline #FF652F;
+  text-decoration-style: wavy;
+  text-underline-position: under;
+}
+
 /*# sourceMappingURL=common.css.map */
