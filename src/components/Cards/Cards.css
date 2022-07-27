@@ -22,4 +22,9 @@
   border-radius: 16px;
 }
 
+.cards__link {
+  color: #FF652F;
+  border-bottom: 1px solid #FF652F;
+}
+
 /*# sourceMappingURL=Cards.css.map */
