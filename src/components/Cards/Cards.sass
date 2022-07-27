@@ -10,15 +10,14 @@
   margin: 0 auto
   height: 472px
   width: 1395px
+  @include flex-space-between
+  flex-direction: column
 
 .cards__list
   display: flex
   flex-wrap: wrap
   justify-content: space-between
+  align-content: space-between
   height: 370px
   width: 1395px
   border-radius: 16px
-
-.cards__link
-  color: $mainAccentColor
-  border-bottom: 1px solid $mainAccentColor

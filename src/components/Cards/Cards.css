@@ -11,20 +11,20 @@
   margin: 0 auto;
   height: 472px;
   width: 1395px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 .cards__list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-content: space-between;
   height: 370px;
   width: 1395px;
   border-radius: 16px;
-}
-
-.cards__link {
-  color: #FF652F;
-  border-bottom: 1px solid #FF652F;
 }
 
 /*# sourceMappingURL=Cards.css.map */

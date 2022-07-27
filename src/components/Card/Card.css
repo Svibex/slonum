@@ -4,6 +4,7 @@
   height: 170px;
   width: 445px;
   border-radius: 16px;
+  padding: 20px 35px 0 35px;
   background: #FFFFFF;
   box-shadow: 0 5px 30px 0 rgba(215, 211, 225, 0.5019607843);
 }
@@ -15,6 +16,12 @@
   letter-spacing: 0.04em;
   text-align: left;
   color: #4F5569;
+  margin-top: 15px;
+}
+
+.card__link {
+  color: #FF652F;
+  border-bottom: 1px solid #FF652F;
 }
 
 /*# sourceMappingURL=Card.css.map */
