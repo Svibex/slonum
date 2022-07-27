@@ -6,7 +6,6 @@ const Timer = () => {
     const [timerDays, setTimerDays] = useState("00");
     const [timerHours, setTimerHours] = useState("00");
     const [timerMinutes, setTimerMinutes] = useState("00");
-    const [timerSeconds, setTimerSeconds] = useState("00");
 
     let interval: { current: NodeJS.Timeout | null } = useRef(null);
 
@@ -30,20 +29,16 @@ const Timer = () => {
             const days = (Math.floor(distance / (1000 * 60 * 60 * 24)));
             const hours = (Math.floor(distance % (1000 * 60 * 60 * 24) / (1000 * 60 * 60)));
             const minutes = (Math.floor(distance % (1000 * 60 * 60) / (1000 * 60)));
-            const seconds = (Math.floor(distance % (1000 * 60) / (1000)));
 
             setTimerDays(checkNumber(days));
             setTimerHours(checkNumber(hours));
             setTimerMinutes(checkNumber(minutes));
-            setTimerSeconds(checkNumber(seconds));
         }, 1000);
     };
 
     useEffect(() => {
         startTimer();
     });
-
-    console.log(timerSeconds);
 
     return (
         <div className="timer">
