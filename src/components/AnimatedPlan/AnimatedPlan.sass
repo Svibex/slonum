@@ -30,6 +30,48 @@
   left: 469px
   top: 69px
 
+#paperAirplane
+  position: absolute
+  z-index: 10
+  animation-name: flying
+  animation-duration: 6s
+  animation-iteration-count: infinite
+
+@keyframes flying
+  0%
+    top: 100px
+    left: 0
+    transform: rotate(0)
+  12.5%
+    top: 120px
+    left: 142px
+    transform: rotate(30deg)
+  25%
+    top: 135px
+    left: 284px
+    transform: rotate(0)
+  37.5%
+    top: 235px
+    left: 518px
+    transform: rotate(30deg)
+  50%
+    top: 336px
+    left: 753px
+    transform: rotate(30deg)
+  62.5%
+    top: 444px
+    left: 995px
+  75%
+    top: 553px
+    left: 1236px
+  87.5%
+    top: 580px
+    left: 1578px
+  100%
+    top: 500px
+    left: 1920px
+    transform: rotate(-30deg)
+
 .animatedPlan__point
   position: absolute
   display: flex

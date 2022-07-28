@@ -2,7 +2,8 @@ import React from "react";
 import "./RegistrationForm.css";
 
 const RegistrationForm = () => {
-    const paperAirplanes = require("../../assets/image/common/paperAirplanes.png") as string;
+    const paperAirplane1 = require("../../assets/image/registrationForm/paperAirplane1.png") as string;
+    const paperAirplane2 = require("../../assets/image/registrationForm/paperAirplane2.png") as string;
 
     return (
         <div className="registrationForm">
@@ -29,7 +30,8 @@ const RegistrationForm = () => {
                     <button className="registrationForm__button" type="submit">
                         Участвовать
                     </button>
-                    <img className="registrationForm__paperAirplanes" src={paperAirplanes} alt="Бумажные самолетики"/>
+                    <img className="registrationForm__paperAirplanes" src={paperAirplane1} alt="Бумажные самолетики"/>
+                    <img className="registrationForm__paperAirplanes" src={paperAirplane2} alt="Бумажные самолетики"/>
                 </div>
             </form>
         </div>
