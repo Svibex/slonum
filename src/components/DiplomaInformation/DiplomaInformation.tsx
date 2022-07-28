@@ -7,8 +7,8 @@ const DiplomaInformation = () => {
     return (
         <section className="diplomaInformation">
             <div className="diplomaInformation__container">
-                <div>
-                    <h2 className="title">Выдаём <span>дипломы</span> участникам</h2>
+                <div className="diplomaInformation__blockInfo">
+                    <h2 className="diplomaInformation__title title">Выдаём <span>дипломы</span> участникам</h2>
                     <div className="diplomaInformation__blockText">
                         <p className="diplomaInformation__blockText_text">
                             Жюри конкурса рассмотрит работы и выделит победителей по городам и возрастным категориям, а
@@ -25,7 +25,7 @@ const DiplomaInformation = () => {
                         </p>
                     </div>
                 </div>
-                <img src={diploma} alt="Диплом участника"/>
+                <img className="diplomaInformation__diploma" src={diploma} alt="Диплом участника"/>
             </div>
         </section>
     );

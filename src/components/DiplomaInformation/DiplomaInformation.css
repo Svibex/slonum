@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
 .diplomaInformation {
-  background: url("../../assets/image/common/waves.png") no-repeat;
+  background: url("../../assets/image/common/waves.png") no-repeat bottom;
   background-size: 1920px 451px;
   width: 1920px;
-  margin: 0 auto;
+  margin: -255px auto 0;
 }
 
 .diplomaInformation__container {
@@ -16,6 +16,15 @@
   justify-content: space-between;
 }
 
+.diplomaInformation__blockInfo {
+  height: 368px;
+  margin-top: 26px;
+}
+
+.diplomaInformation__title {
+  margin-bottom: 8px;
+}
+
 .diplomaInformation__blockText {
   font-family: "Rubik", sans-serif;
   font-size: 18px;
@@ -24,10 +33,20 @@
   text-align: left;
   color: #4F5569;
   width: 497px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 317px;
 }
 
 .diplomaInformation__blockText_text {
   margin-top: 18px;
+}
+
+.diplomaInformation__diploma {
+  height: 480px;
+  width: 680px;
+  margin-top: 23px;
 }
 
 /*# sourceMappingURL=DiplomaInformation.css.map */

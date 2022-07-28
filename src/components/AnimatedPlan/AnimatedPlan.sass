@@ -4,28 +4,48 @@
   background: url("../../assets/image/animatedPlan/large_clouds.png")
   height: 907px
   width: 1923px
-  margin: 160px auto 0
+  margin: 74px auto 0
 
 .animatedPlan__container
   @include flex-center
   flex-direction: column
   position: relative
 
-.animatedPlan__clouds, .animatedPlan__birds,
-.animatedPlan__point
+.animatedPlan__way
+  margin-top: 140px
+  margin-left: 140px
+
+.animatedPlan__clouds, .animatedPlan__birds
   position: absolute
 
+.animatedPlan__clouds
+  height: 574px
+  width: 1250px
+  left: 356px
+  top: 35px
+
+.animatedPlan__birds
+  height: 446px
+  width: 737px
+  left: 469px
+  top: 69px
+
+.animatedPlan__point
+  position: absolute
+  display: flex
+  align-items: flex-start
+
 #point-1
-  top: 0
-  left: 0
+  top: 132px
+  left: 284px
 
 #point-2
-  top: 40%
-  left: 40%
+  top: 336px
+  left: 753px
 
 #point-3
-  top: 80%
-  left: 80%
+  top: 553px
+  left: 1236px
 
 .animatedPlan__point_number
   background: $mainAccentColor
@@ -46,3 +66,19 @@
   letter-spacing: 0.04em
   text-align: left
   color: $additionalFontColor
+  margin-left: 42px
+
+.animatedPlan__point_link
+  color: $mainColor
+  text-decoration: underline
+  text-decoration-color: $mainColor
+  text-underline-position: under
+
+#point-text1
+  width: 230px
+
+#point-text2
+  width: 240px
+
+#point-text3
+  width: 270px

@@ -1,16 +1,23 @@
 @import "../../styles/variables"
 
 .diplomaInformation
-  background: url("../../assets/image/common/waves.png") no-repeat
+  background: url("../../assets/image/common/waves.png") no-repeat bottom
   background-size: 1920px 451px
   width: 1920px
-  margin: 0 auto
+  margin: -255px auto 0
 
 .diplomaInformation__container
   height: 156+480+185px
   width: 1391px
   margin: 0 auto
   @include flex-space-between
+
+.diplomaInformation__blockInfo
+  height: 368px
+  margin-top: 26px
+
+.diplomaInformation__title
+  margin-bottom: 8px
 
 .diplomaInformation__blockText
   font-family: $additionalFont
@@ -20,6 +27,15 @@
   text-align: left
   color: $additionalFontColor
   width: 497px
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  height: 317px
 
 .diplomaInformation__blockText_text
   margin-top: 18px
+
+.diplomaInformation__diploma
+  height: 480px
+  width: 680px
+  margin-top: 23px
