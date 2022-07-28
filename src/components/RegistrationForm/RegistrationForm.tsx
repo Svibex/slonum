@@ -8,14 +8,14 @@ const RegistrationForm = () => {
         <div className="registrationForm">
             <h2 className="registrationForm__title title">Зарегистрируйтесь, чтобы участвовать</h2>
             <form className="registrationForm__container">
-                <input className="registrationForm__input" type="text" placeholder="ФИО ребёнка"/>
-                <input className="registrationForm__input" type="text" placeholder="Дата рождения"/>
-                <input className="registrationForm__input" type="text" placeholder="Город"/>
-                <input className="registrationForm__input" type="text" placeholder="Email"/>
-                <input className="registrationForm__input" type="text" placeholder="Пароль"/>
+                <input className="registrationForm__input input" type="text" placeholder="ФИО ребёнка"/>
+                <input className="registrationForm__input input" type="text" placeholder="Дата рождения"/>
+                <input className="registrationForm__input input" type="text" placeholder="Город"/>
+                <input className="registrationForm__input input" type="text" placeholder="Email"/>
+                <input className="registrationForm__input input" type="text" placeholder="Пароль"/>
                 <div className="registrationForm__consent">
-                    <button className="registrationForm__checkbox"/>
-                    <p className="registrationForm__text">
+                    <button className="checkbox"/>
+                    <p className="registrationForm__checkboxText">
                         Отправляя данные я соглашаюсь с&nbsp;
                         <a className="registrationForm__link" href="/#">
                             Условиями конкурса

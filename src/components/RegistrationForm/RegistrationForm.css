@@ -16,16 +16,6 @@
 }
 
 .registrationForm__input {
-  height: 60px;
-  width: 540px;
-  border-radius: 15px;
-  padding: 0 20px 0 20px;
-  border: 1px solid #9FA0A7;
-  font-family: "Rubik", sans-serif;
-  font-size: 20px;
-  line-height: 24px;
-  letter-spacing: 0.04em;
-  text-align: left;
   margin-top: 20px;
 }
 
@@ -37,15 +27,7 @@
   margin-top: 50px;
 }
 
-.registrationForm__checkbox {
-  height: 18.5px;
-  width: 18.5px;
-  border-radius: 5px;
-  border: 1.5px solid #14A76C;
-  background: #FFFFFF;
-}
-
-.registrationForm__text {
+.registrationForm__checkboxText {
   font-family: "Rubik", sans-serif;
   font-size: 15px;
   line-height: 18px;
