@@ -1,13 +1,13 @@
 @import "../../styles/variables"
 
 .registration
-  margin: 200px auto 0
+  margin: 60px auto 0
   width: 1920px
 
 .registration__container
   margin: 0 auto
   height: 692px
-  width: 1369px
+  width: 1400px
   @include flex-space-between
 
 .registration__banner
@@ -17,6 +17,8 @@
   border: 3px solid $mainColor
   position: relative
   box-shadow: 0 5px 15px 0 #14A77233
+  @include flex-space-between
+  flex-direction: column
 
 .registration__bookmark
   position: absolute
@@ -25,8 +27,11 @@
 
 .registration__info
   margin-top: 136px
-  @include flex-center
+  display: flex
   flex-direction: column
+  justify-content: space-between
+  width: 370px
+  height: 222px
 
 .registration__info_text
   font-family: $additionalFont
@@ -37,7 +42,9 @@
   color: $additionalFontColor
 
 .registration__price
-  @include flex-space-between
+  display: flex
+  height: 114px
+  width: 324px
 
 .registration__price_sale
   font-family: $additionalFont
@@ -55,6 +62,7 @@
   text-align: left
   color: $mainFontColor
   text-decoration: 2px line-through $mainFontColor
+  padding: 14px 22px
 
 .registration__socialMedias
   background: $mainColor
@@ -63,6 +71,7 @@
   width: 490px
   border-radius: 0 0 40px 40px
   margin-left: -3px
+  padding: 0 58px
 
 .registration__socialMedias_text
   font-family: $mainFont
@@ -73,8 +82,22 @@
   text-align: center
   color: $backgroundColor
 
+.registration__icons
+  @include flex-space-between
+
 .registration__icons_icon
   background: $backgroundColor
-  border-radius: 4px
+  border-radius: 10px
 
+#registration__vk
+  background-image: url("../../assets/image/common/vk.png")
+  border: 2px solid $backgroundColor
+  width: 39px
+  height: 39px
 
+#registration__ok
+  background-image: url("../../assets/image/registration/ok.png")
+  background-size: 39px
+  width: 39px
+  height: 39px
+  margin-left: 18px
