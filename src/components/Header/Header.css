@@ -3,12 +3,12 @@
 .header {
   position: absolute;
   z-index: 5;
-  top: 30px;
+  top: 40px;
 }
 
 .header__container {
   height: 50px;
-  width: 1395px;
+  width: 1423px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -51,6 +51,7 @@
   background: #FFFFFF;
   font-weight: 400;
   font-family: "Rubik", sans-serif;
+  margin-right: 20px;
 }
 
 /*# sourceMappingURL=Header.css.map */

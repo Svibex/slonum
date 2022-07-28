@@ -3,20 +3,21 @@
 .cover {
   position: relative;
   top: -10px;
+  width: 1920px;
+  margin: 0 auto;
 }
 
 .cover__container {
   height: 810px;
-  width: 1676px;
-  left: 262px;
+  width: 1661px;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  margin: 0 auto;
+  margin: 0 0 0 auto;
 }
 
 .cover__textGroup {
-  margin-top: 328px;
+  margin-top: 340px;
   width: 653px;
 }
 
@@ -48,13 +49,14 @@
   text-align: left;
   color: #1F1D2A;
   margin-top: 40px;
+  width: 570px;
 }
 
 .cover__timerGroup {
   display: flex;
-  align-items: center;
   justify-content: space-between;
   margin-top: 60px;
+  width: 628px;
 }
 
 .cover__button {
