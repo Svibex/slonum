@@ -7,7 +7,7 @@
   width: 900px
 
 .animatedSpace__background
-  background-image: url("../../assets/image/animatedSpace/space-background.png"), $backgroundAccentColor
+  background-image: url("../../assets/image/animatedSpace/space-background.png"), url("../../assets/image/animatedSpace/stars.png"), $backgroundAccentColor
   background-size: 864px 693px, 860px 690px
   background-position: right 13px, right top
   background-repeat: no-repeat
@@ -16,6 +16,7 @@
   animation-name: background-appearance
   animation-duration: 2s
   animation-timing-function: ease-in-out
+  position: absolute
 
 @keyframes background-appearance
   0%
@@ -27,25 +28,34 @@
   100%
     opacity: 100%
 
-.animatedSpace__girl, .animatedSpace__paperAirplanes,
-.animatedSpace__brush, .animatedSpace__alarm, .animatedSpace__atom,
-.animatedSpace__balloon, .animatedSpace__division, .animatedSpace__elephant,
-.animatedSpace__lamp, .animatedSpace__one, .animatedSpace__palette,
-.animatedSpace__plane, .animatedSpace__planet1, .animatedSpace__planet2,
-.animatedSpace__planet3, .animatedSpace__plus, .animatedSpace__rocket,
-.animatedSpace__star, .animatedSpace__zero
+.animatedSpace__animationBlock
+  position: relative
+  height: 810px
+  width: 900px
+  animation-name: background-appearance
+  animation-duration: 3s
+  animation-timing-function: ease-in-out
+
+.animatedSpace__alarm, .animatedSpace__atom, .animatedSpace__balloon,
+.animatedSpace__division, .animatedSpace__elephant, .animatedSpace__lamp,
+.animatedSpace__palette, .animatedSpace__plane, .animatedSpace__planet1,
+.animatedSpace__planet2, .animatedSpace__planet3,
+.animatedSpace__plus, .animatedSpace__rocket
   position: absolute
 
 .animatedSpace__girl
+  position: absolute
   top: 484px
   left: 409px
   z-index: 5
 
 .animatedSpace__paperAirplanes
+  position: absolute
   top: 730px
   left: 206px
 
 .animatedSpace__brush
+  position: absolute
   top: 638px
   left: 430px
   transform: rotate(10deg)
@@ -71,3 +81,55 @@
     top: 638px
     left: 430px
     transform: rotate(10deg)
+
+.animatedSpace__alarm
+  top: 216px
+  left: 171px
+
+.animatedSpace__atom
+  top: 132px
+  left: 130px
+
+.animatedSpace__balloon
+  top: 294px
+  left: 401px
+
+.animatedSpace__division
+  top: 183px
+  left: 558px
+
+.animatedSpace__elephant
+  top: 223px
+  left: 617px
+
+.animatedSpace__lamp
+  top: 324px
+  left: 508px
+
+.animatedSpace__palette
+  top: 119px
+  left: 760px
+
+.animatedSpace__plane
+  top: 327px
+  left: 756px
+
+.animatedSpace__planet1
+  top: 80px
+  left: 260px
+
+.animatedSpace__planet2
+  top: 132px
+  left: 473px
+
+.animatedSpace__planet3
+  top: 457px
+  left: 365px
+
+.animatedSpace__plus
+  top: 238px
+  left: 478px
+
+.animatedSpace__rocket
+  top: 350px
+  left: 140px
