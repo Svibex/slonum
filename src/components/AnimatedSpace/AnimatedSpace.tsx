@@ -27,6 +27,24 @@ const AnimatedSpace = () => {
             <div className="animatedSpace__background" />
             <img className="animatedSpace__girl" src={girl} alt="Девочка"/>
             <img className="animatedSpace__paperAirplanes" src={paperAirplanes} alt="Бумажные самолетики"/>
+
+            <img className="animatedSpace__brush" src={brush} alt="Девочка"/>
+            <img className="animatedSpace__alarm" src={alarm} alt="Девочка"/>
+            <img className="animatedSpace__atom" src={atom} alt="Девочка"/>
+            <img className="animatedSpace__balloon" src={balloon} alt="Девочка"/>
+            <img className="animatedSpace__division" src={division} alt="Девочка"/>
+            <img className="animatedSpace__elephant" src={elephant} alt="Девочка"/>
+            <img className="animatedSpace__lamp" src={lamp} alt="Девочка"/>
+            <img className="animatedSpace__one" src={one} alt="Девочка"/>
+            <img className="animatedSpace__palette" src={palette} alt="Девочка"/>
+            <img className="animatedSpace__plane" src={plane} alt="Девочка"/>
+            <img className="animatedSpace__planet1" src={planet1} alt="Девочка"/>
+            <img className="animatedSpace__planet2" src={planet2} alt="Девочка"/>
+            <img className="animatedSpace__planet3" src={planet3} alt="Девочка"/>
+            <img className="animatedSpace__plus" src={plus} alt="Девочка"/>
+            <img className="animatedSpace__rocket" src={rocket} alt="Девочка"/>
+            <img className="animatedSpace__star" src={star} alt="Девочка"/>
+            <img className="animatedSpace__zero" src={zero} alt="Девочка"/>
         </div>
     );
 };

@@ -15,6 +15,7 @@
   width: 900px;
   animation-name: background-appearance;
   animation-duration: 2s;
+  animation-timing-function: ease-in-out;
 }
 
 @keyframes background-appearance {
@@ -31,16 +32,58 @@
     opacity: 100%;
   }
 }
-.animatedSpace__girl {
+.animatedSpace__girl, .animatedSpace__paperAirplanes,
+.animatedSpace__brush, .animatedSpace__alarm, .animatedSpace__atom,
+.animatedSpace__balloon, .animatedSpace__division, .animatedSpace__elephant,
+.animatedSpace__lamp, .animatedSpace__one, .animatedSpace__palette,
+.animatedSpace__plane, .animatedSpace__planet1, .animatedSpace__planet2,
+.animatedSpace__planet3, .animatedSpace__plus, .animatedSpace__rocket,
+.animatedSpace__star, .animatedSpace__zero {
   position: absolute;
+}
+
+.animatedSpace__girl {
   top: 484px;
   left: 409px;
+  z-index: 5;
 }
 
 .animatedSpace__paperAirplanes {
-  position: absolute;
   top: 730px;
   left: 206px;
+}
+
+.animatedSpace__brush {
+  top: 638px;
+  left: 430px;
+  transform: rotate(10deg);
+  animation-name: writing;
+  animation-duration: 4.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes writing {
+  0% {
+    transform: rotate(0);
+    top: 635px;
+    left: 433px;
+  }
+  25% {
+    top: 633px;
+    left: 440px;
+    transform: rotate(66deg);
+  }
+  50% {
+    top: 628px;
+    left: 425px;
+    transform: rotate(-24deg);
+  }
+  100% {
+    top: 638px;
+    left: 430px;
+    transform: rotate(10deg);
+  }
 }
 
 /*# sourceMappingURL=AnimatedSpace.css.map */
