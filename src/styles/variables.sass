@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap')
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap')
 
+$mainFont: 'Nunito', sans-serif
+$additionalFont: 'Rubik', sans-serif
+
 $backgroundColor: #FFFFFF
 $mainColor: #14A76C
 $mainAccentColor: #FF652F
@@ -11,17 +14,12 @@ $additionalFontColor: #4F5569
 $accentFontColor: #9FA0A7
 $additionalAccentFontColor: #D6D7DD
 
-$mainFont: 'Nunito', sans-serif
-$additionalFont: 'Rubik', sans-serif
+$buttonColor: $mainColor
+$additionalButtonColor: $mainAccentColor
 
-@mixin flex-space-between ()
-  display: flex
-  align-items: center
-  justify-content: space-between
+$linkColor: $mainColor
+$additionalLinkColor: $mainAccentColor
 
-@mixin flex-center ()
-  display: flex
-  align-items: center
-  justify-content: center
+$textSelectionColor: $mainAccentColor
 
 //$inverse: linear-gradient(326.12deg, rgba(255,101,47,1) 17.95%, rgba(224,45,5,1) 89.78%)

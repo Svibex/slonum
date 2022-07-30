@@ -1,5 +1,6 @@
 @import "variables"
 @import "reset.css"
+@import "mixin"
 
 #root
   position: relative
@@ -33,7 +34,7 @@ li:hover
   cursor: pointer
 
 span
-  text-decoration: 3px underline $mainAccentColor
+  text-decoration: 3px underline $textSelectionColor
   text-decoration-style: wavy
   text-underline-position: under
 
@@ -53,5 +54,5 @@ span
   height: 18.5px
   width: 18.5px
   border-radius: 5px
-  border: 1.5px solid $mainColor
+  border: 1.5px solid $buttonColor
   background: $backgroundColor
