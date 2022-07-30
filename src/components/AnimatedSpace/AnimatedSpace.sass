@@ -5,10 +5,26 @@
   position: relative
   height: 810px
   width: 900px
+
+.animatedSpace__background
   background-image: url("../../assets/image/animatedSpace/space-background.png"), $backgroundAccentColor
   background-size: 864px 693px, 860px 690px
   background-position: right 13px, right top
   background-repeat: no-repeat
+  height: 810px
+  width: 900px
+  animation-name: background-appearance
+  animation-duration: 2s
+
+@keyframes background-appearance
+  0%
+    opacity: 0
+  25%
+    opacity: 0
+  50%
+    opacity: 50%
+  100%
+    opacity: 100%
 
 .animatedSpace__girl
   position: absolute

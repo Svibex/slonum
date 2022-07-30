@@ -37,7 +37,27 @@
   height: 44px
   width: 180px
   border: 1px solid $mainFontColor
+  color: $mainFontColor
   background: $backgroundColor
   font-weight: 400
   font-family: $additionalFont
   margin-right: 20px
+  animation-name: button-change-color
+  animation-duration: 2s
+
+@keyframes button-change-color
+  0%
+    border: 1px solid $mainAccentColor
+    color: $backgroundColor
+    background: $mainAccentColor
+    font-weight: 700
+  25%
+    border: 1px solid $mainAccentColor
+    color: $backgroundColor
+    background: $mainAccentColor
+    font-weight: 700
+  50%
+    opacity: 50%
+    font-weight: 400
+  100%
+    opacity: 100%

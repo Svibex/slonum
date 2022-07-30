@@ -48,10 +48,35 @@
   height: 44px;
   width: 180px;
   border: 1px solid #1F1D2A;
+  color: #1F1D2A;
   background: #FFFFFF;
   font-weight: 400;
   font-family: "Rubik", sans-serif;
   margin-right: 20px;
+  animation-name: button-change-color;
+  animation-duration: 2s;
+}
+
+@keyframes button-change-color {
+  0% {
+    border: 1px solid #FF652F;
+    color: #FFFFFF;
+    background: #FF652F;
+    font-weight: 700;
+  }
+  25% {
+    border: 1px solid #FF652F;
+    color: #FFFFFF;
+    background: #FF652F;
+    font-weight: 700;
+  }
+  50% {
+    opacity: 50%;
+    font-weight: 400;
+  }
+  100% {
+    opacity: 100%;
+  }
 }
 
 /*# sourceMappingURL=Header.css.map */
