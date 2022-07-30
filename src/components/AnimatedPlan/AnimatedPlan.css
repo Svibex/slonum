@@ -50,17 +50,14 @@
   0% {
     top: 100px;
     left: 0;
-    transform: rotate(0);
   }
   12.5% {
     top: 120px;
     left: 142px;
-    transform: rotate(30deg);
   }
   25% {
     top: 135px;
     left: 284px;
-    transform: rotate(0);
   }
   37.5% {
     top: 235px;
@@ -75,6 +72,7 @@
   62.5% {
     top: 444px;
     left: 995px;
+    transform: rotate(30deg);
   }
   75% {
     top: 553px;

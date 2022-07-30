@@ -27,7 +27,10 @@ const RegistrationForm = () => {
                     </p>
                 </div>
                 <div className="registrationForm__buttonGroup">
-                    <button className="registrationForm__button" type="submit">
+                    <button
+                        className="registrationForm__button"
+                        type="submit"
+                        onClick={(e:React.MouseEvent) => e.preventDefault()}>
                         Участвовать
                     </button>
                     <img className="registrationForm__paperAirplanes" src={paperAirplane1} alt="Бумажные самолетики"/>

@@ -12,10 +12,18 @@ const Subscribe = () => {
                 <form className="subscribe__form">
                     <div className="subscribe__inputGroup">
                         <input className="input" type="text" placeholder="Email"/>
-                        <button className="subscribe__button" type="submit">Отправить</button>
+                        <button
+                            className="subscribe__button"
+                            type="submit"
+                            onClick={(e:React.MouseEvent) => e.preventDefault()}
+                        >Отправить
+                        </button>
                     </div>
                     <div className="subscribe__consent">
-                        <button className="checkbox"/>
+                        <button
+                            className="checkbox"
+                            onClick={(e:React.MouseEvent) => e.preventDefault()}
+                        />
                         <p className="subscribe__checkboxText">
                             Отправляя данные я соглашаюсь с
                             <a className="subscribe__link" href="/#"> Условиями конкурса</a> и
