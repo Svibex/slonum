@@ -1,5 +1,6 @@
 import React from "react";
 import "./RegistrationForm.css";
+import Checkbox from "../Checkbox/Checkbox";
 
 const RegistrationForm = () => {
     const paperAirplane1 = require("../../assets/image/registrationForm/paperAirplane1.png") as string;
@@ -15,16 +16,11 @@ const RegistrationForm = () => {
                 <input className="registrationForm__input input" type="text" placeholder="Email"/>
                 <input className="registrationForm__input input" type="text" placeholder="Пароль"/>
                 <div className="registrationForm__consent">
-                    <button className="checkbox"/>
-                    <p className="registrationForm__checkboxText">
-                        Отправляя данные я соглашаюсь с&nbsp;
-                        <a className="registrationForm__link" href="/#">
-                            Условиями конкурса
-                        </a> и&nbsp;
-                        <a className="registrationForm__link" href="/#">
-                            Политикой обработки данных
-                        </a>
-                    </p>
+                    <Checkbox
+                        id="checkbox1"
+                        labelClassName="registrationForm__checkboxText"
+                        link="registrationForm__link"
+                     />
                 </div>
                 <div className="registrationForm__buttonGroup">
                     <button

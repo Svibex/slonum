@@ -1,7 +1,9 @@
 import React from "react";
 import "./Subscribe.css";
+import Checkbox from "../Checkbox/Checkbox";
 
 const Subscribe = () => {
+
     return (
         <section className="subscribe">
             <div className="subscribe__container">
@@ -15,20 +17,16 @@ const Subscribe = () => {
                         <button
                             className="subscribe__button"
                             type="submit"
-                            onClick={(e:React.MouseEvent) => e.preventDefault()}
+                            onClick={(e: React.MouseEvent) => e.preventDefault()}
                         >Отправить
                         </button>
                     </div>
                     <div className="subscribe__consent">
-                        <button
-                            className="checkbox"
-                            onClick={(e:React.MouseEvent) => e.preventDefault()}
+                        <Checkbox
+                            id="checkbox2"
+                            labelClassName="subscribe__checkboxText"
+                            link="subscribe__link"
                         />
-                        <p className="subscribe__checkboxText">
-                            Отправляя данные я соглашаюсь с
-                            <a className="subscribe__link" href="/#"> Условиями конкурса</a> и
-                            <a className="subscribe__link" href="/#"> Политикой обработки данных</a>
-                        </p>
                     </div>
                 </form>
             </div>

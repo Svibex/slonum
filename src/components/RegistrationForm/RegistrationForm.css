@@ -35,6 +35,8 @@
   text-align: left;
   color: #9FA0A7;
   width: 449px;
+  display: block;
+  margin-left: 10px;
 }
 
 .registrationForm__link {

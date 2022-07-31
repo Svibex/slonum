@@ -61,7 +61,7 @@
     left: 284px;
   }
   50% {
-    top: 230px;
+    top: 205px;
     left: 518px;
     transform: rotate(30deg);
   }
@@ -71,7 +71,7 @@
     transform: rotate(30deg);
   }
   70% {
-    top: 444px;
+    top: 470px;
     left: 995px;
     transform: rotate(30deg);
   }
@@ -81,7 +81,7 @@
     transform: rotate(30deg);
   }
   90% {
-    top: 580px;
+    top: 600px;
     left: 1578px;
   }
   100% {
