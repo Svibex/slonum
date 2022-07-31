@@ -43,35 +43,45 @@
   0%
     top: 100px
     left: 0
-  20%
+    opacity: 0
+  15%
     top: 120px
     left: 142px
-  35%
+    opacity: 75%
+  30%
     top: 120px
     left: 284px
-  50%
+    opacity: 100%
+  45%
     top: 205px
     left: 518px
     transform: rotate(30deg)
-  60%
+  55%
     top: 325px
     left: 753px
     transform: rotate(30deg)
-  70%
+  65%
     top: 470px
     left: 995px
     transform: rotate(30deg)
-  80%
+  75%
     top: 553px
     left: 1236px
     transform: rotate(30deg)
-  90%
+  85%
     top: 600px
     left: 1578px
-  100%
+    opacity: 100%
+  90%
     top: 500px
-    left: 1900px
+    left: 1800px
     transform: rotate(-30deg)
+    opacity: 75%
+  100%
+    opacity: 0
+    transform: rotate(-30deg)
+    top: 500px
+    left: 1830px
 
 .animatedPlan__point
   position: absolute
@@ -110,6 +120,10 @@
   text-align: left
   color: $additionalFontColor
   margin-left: 42px
+  animation-iteration-count: infinite
+  animation-timing-function: ease-in-out
+  animation-duration: 3s
+  animation-name: text-appearance
 
 .animatedPlan__point_link
   color: $linkColor
@@ -119,9 +133,23 @@
 
 #point-text1
   width: 230px
+  opacity: 0
+  animation-delay: 1s
 
 #point-text2
   width: 240px
+  opacity: 0
+  animation-delay: 2s
 
 #point-text3
   width: 270px
+  opacity: 0
+  animation-delay: 2.5s
+
+@keyframes text-appearance
+  0%
+    opacity: 0
+  50%
+    opacity: 100%
+  75%
+    opacity: 0
