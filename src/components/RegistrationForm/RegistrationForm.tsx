@@ -3,6 +3,7 @@ import "./RegistrationForm.css";
 import Checkbox from "../Checkbox/Checkbox";
 
 const RegistrationForm = () => {
+    const paperAirplane = require("../../assets/image/registrationForm/paperAirplane.png") as string;
     const paperAirplane1 = require("../../assets/image/registrationForm/paperAirplane1.png") as string;
     const paperAirplane2 = require("../../assets/image/registrationForm/paperAirplane2.png") as string;
 
@@ -29,8 +30,9 @@ const RegistrationForm = () => {
                         onClick={(e:React.MouseEvent) => e.preventDefault()}>
                         Участвовать
                     </button>
-                    <img className="registrationForm__paperAirplanes" src={paperAirplane1} alt="Бумажные самолетики"/>
-                    <img className="registrationForm__paperAirplanes" src={paperAirplane2} alt="Бумажные самолетики"/>
+                    <img id="registrationForm__paperAirplaneActive" src={paperAirplane} alt="Бумажный самолетик"/>
+                    <img id="registrationForm__paperAirplaneLeft" src={paperAirplane1} alt="Бумажный самолетик"/>
+                    <img id="registrationForm__paperAirplaneRight" src={paperAirplane2} alt="Бумажный самолетик"/>
                 </div>
             </form>
         </div>

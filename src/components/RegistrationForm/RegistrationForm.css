@@ -24,7 +24,7 @@
   align-items: center;
   justify-content: space-between;
   width: 483px;
-  margin-top: 50px;
+  margin-top: 55px;
 }
 
 .registrationForm__checkboxText {
@@ -51,7 +51,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 40px;
+  margin-top: 50px;
+  position: relative;
 }
 
 .registrationForm__button {
@@ -69,8 +70,93 @@
   text-align: center;
 }
 
-.registrationForm__paperAirplanes {
-  margin-right: 30px;
+#registrationForm__paperAirplaneActive,
+#registrationForm__paperAirplaneLeft,
+#registrationForm__paperAirplaneRight {
+  position: absolute;
+}
+
+#registrationForm__paperAirplaneActive {
+  z-index: 5;
+  animation-name: flying-under-form;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+#registrationForm__paperAirplaneLeft {
+  bottom: -44px;
+  right: 58px;
+  z-index: 3;
+  animation-name: planeLeft-movement;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+#registrationForm__paperAirplaneRight {
+  bottom: -45px;
+  right: 30px;
+  z-index: 1;
+  animation-name: planeRight-movement;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes flying-under-form {
+  0% {
+    bottom: 210px;
+    right: -280px;
+    transform: rotate(-30deg);
+    opacity: 0;
+  }
+  15% {
+    bottom: 80px;
+    right: -140px;
+    transform: rotate(-30deg);
+    opacity: 100%;
+  }
+  30% {
+    right: 70px;
+    transform: rotate(25deg);
+    bottom: -20px;
+  }
+  100% {
+    right: 70px;
+    transform: rotate(25deg);
+    bottom: -20px;
+  }
+}
+@keyframes planeLeft-movement {
+  0% {
+    bottom: -24px;
+    right: 58px;
+  }
+  25% {
+    bottom: -24px;
+    right: 58px;
+    transform: rotate(0deg);
+  }
+  100% {
+    bottom: -29px;
+    right: 84px;
+    transform: rotate(-11deg);
+  }
+}
+@keyframes planeRight-movement {
+  0% {
+    bottom: -25px;
+    right: 30px;
+  }
+  25% {
+    bottom: -25px;
+    right: 30px;
+    transform: rotate(0deg);
+  }
+  100% {
+    bottom: -25px;
+    right: 40px;
+    transform: rotate(10deg);
+  }
 }
 
 /*# sourceMappingURL=RegistrationForm.css.map */
