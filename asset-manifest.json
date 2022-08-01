@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/slonum/static/css/main.35d83817.css",
+    "main.js": "/slonum/static/js/main.c6c2faf2.js",
+    "static/media/landscape.png": "/slonum/static/media/landscape.620e17e1c74b188b5dca.png",
+    "static/media/waves.png": "/slonum/static/media/waves.9da5421840456fe3b64e.png",
+    "static/media/diploma.png": "/slonum/static/media/diploma.9317051911bac291efe8.png",
+    "static/media/large_clouds.png": "/slonum/static/media/large_clouds.a666b1f262e54a918480.png",
+    "static/media/girl.png": "/slonum/static/media/girl.cd2b8678ae838e3048cc.png",
+    "static/media/clouds.png": "/slonum/static/media/clouds.41602f963ca027309e9a.png",
+    "static/media/space-background.png": "/slonum/static/media/space-background.c4c7f2ce80e2c965b2d2.png",
+    "static/media/3.png": "/slonum/static/media/3.2c0deb2eecd5e2382c60.png",
+    "static/media/6.png": "/slonum/static/media/6.4cf3412137ca8f585975.png",
+    "static/media/way.png": "/slonum/static/media/way.af24094765d9028757ef.png",
+    "static/media/balloon.png": "/slonum/static/media/balloon.323ab69a60b09e9f3672.png",
+    "index.html": "/slonum/index.html",
+    "main.35d83817.css.map": "/slonum/static/css/main.35d83817.css.map",
+    "main.c6c2faf2.js.map": "/slonum/static/js/main.c6c2faf2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.35d83817.css",
+    "static/js/main.c6c2faf2.js"
+  ]
+}

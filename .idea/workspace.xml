@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6f34fb27-1711-4b5b-be05-13908c11d6ac" name="Default Changelist" comment="feat: add gh-pages" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+        <option value="Sass File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="gh-pages" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2CNtE2UAb3zafGedddM9YfS77vp" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="Sass" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Users\futur\Desktop\PROJECT SVIBEX\hotels-training\slonum\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\futur\Desktop\PROJECT SVIBEX\hotels-training\slonum\public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\futur\Desktop\PROJECT SVIBEX\hotels-training\slonum\src\styles\variables" />
+      <recent name="C:\Users\futur\Desktop\PROJECT SVIBEX\hotels-training\slonum\src\assets\image" />
+      <recent name="C:\Users\futur\Desktop\PROJECT SVIBEX\hotels-training\slonum\src\assets\registrationForm" />
+      <recent name="C:\Users\futur\Desktop\PROJECT SVIBEX\hotels-training\slonum\src\assets\image\animatedSpace" />
+      <recent name="C:\Users\futur\Desktop\PROJECT SVIBEX\hotels-training\slonum\src\assets\image\common" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6f34fb27-1711-4b5b-be05-13908c11d6ac" name="Default Changelist" comment="" />
+      <created>1658654754594</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658654754594</updated>
+      <workItem from="1658654755898" duration="2511000" />
+      <workItem from="1658676977981" duration="7954000" />
+      <workItem from="1658685412760" duration="2137000" />
+      <workItem from="1658742208058" duration="77000" />
+      <workItem from="1658742399133" duration="13728000" />
+      <workItem from="1658760349668" duration="5615000" />
+      <workItem from="1658834114263" duration="17058000" />
+      <workItem from="1658853009772" duration="1908000" />
+      <workItem from="1658855901083" duration="7807000" />
+      <workItem from="1658864089437" duration="368000" />
+      <workItem from="1658865131092" duration="104000" />
+      <workItem from="1658867059033" duration="7609000" />
+      <workItem from="1658902955125" duration="9265000" />
+      <workItem from="1658922803363" duration="366000" />
+      <workItem from="1658993583354" duration="6622000" />
+      <workItem from="1659003631287" duration="41000" />
+      <workItem from="1659003695832" duration="17119000" />
+      <workItem from="1659181739682" duration="14893000" />
+      <workItem from="1659266179283" duration="8710000" />
+      <workItem from="1659277705935" duration="802000" />
+      <workItem from="1659278899563" duration="14727000" />
+      <workItem from="1659308780483" duration="60000" />
+      <workItem from="1659350501214" duration="603000" />
+    </task>
+    <task id="LOCAL-00001" summary="init: start project">
+      <created>1658656637621</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658656637621</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: add styles &amp; fonts">
+      <created>1658680419572</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658680419572</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: add header component">
+      <created>1658682679302</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1658682679302</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: add cover component">
+      <created>1658752297500</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1658752297500</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: complete description component">
+      <created>1658753631788</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1658753631788</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: add cards &amp; card components">
+      <created>1658757971677</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1658757971677</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: add AnimatedPlan components">
+      <created>1658764850448</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1658764850448</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: add DiplomaInformation components">
+      <created>1658837249632</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1658837249632</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: update DiplomaInformation components">
+      <created>1658842399940</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1658842399940</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat: add registration block">
+      <created>1658842438163</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1658842438163</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat: add questions block">
+      <created>1658845487232</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1658845487232</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat: update margin">
+      <created>1658845660584</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1658845660584</updated>
+    </task>
+    <task id="LOCAL-00013" summary="feat: update html structure">
+      <created>1658846572423</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1658846572423</updated>
+    </task>
+    <task id="LOCAL-00014" summary="feat: add subscribe component">
+      <created>1658847788450</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1658847788450</updated>
+    </task>
+    <task id="LOCAL-00015" summary="feat: add subscribe component">
+      <created>1658847797448</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1658847797448</updated>
+    </task>
+    <task id="LOCAL-00016" summary="feat: add footer component">
+      <created>1658851184570</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1658851184570</updated>
+    </task>
+    <task id="LOCAL-00017" summary="feat: create animatedSpace component">
+      <created>1658853325858</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1658853325858</updated>
+    </task>
+    <task id="LOCAL-00018" summary="feat: add Timer component">
+      <created>1658856835282</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1658856835282</updated>
+    </task>
+    <task id="LOCAL-00019" summary="feat: add functional in Timer component">
+      <created>1658859840765</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1658859840765</updated>
+    </task>
+    <task id="LOCAL-00020" summary="feat: complete functional in Timer component">
+      <created>1658867084284</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1658867084284</updated>
+    </task>
+    <task id="LOCAL-00021" summary="feat: add animation for Timer">
+      <created>1658870178924</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1658870178924</updated>
+    </task>
+    <task id="LOCAL-00022" summary="feat: rename animation for Timer">
+      <created>1658870231322</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1658870231322</updated>
+    </task>
+    <task id="LOCAL-00023" summary="feat: rename variables in Timer component">
+      <created>1658870774875</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1658870774875</updated>
+    </task>
+    <task id="LOCAL-00024" summary="feat: update AnimatedSpace styles">
+      <created>1658874424087</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1658874424087</updated>
+    </task>
+    <task id="LOCAL-00025" summary="feat: add images for AnimatedSpace">
+      <created>1658874449683</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1658874449683</updated>
+    </task>
+    <task id="LOCAL-00026" summary="feat: update background for AnimatedSpace">
+      <created>1658908914764</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1658908914764</updated>
+    </task>
+    <task id="LOCAL-00027" summary="feat: update cards block">
+      <created>1658908929928</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1658908929928</updated>
+    </task>
+    <task id="LOCAL-00028" summary="feat: add underline for titles">
+      <created>1658909643040</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1658909643040</updated>
+    </task>
+    <task id="LOCAL-00029" summary="feat: remove timer for seconds">
+      <created>1658910064115</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1658910064115</updated>
+    </task>
+    <task id="LOCAL-00030" summary="feat: update gitignore">
+      <created>1658910270194</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1658910270194</updated>
+    </task>
+    <task id="LOCAL-00031" summary="feat: update cards block styles">
+      <created>1658910961678</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1658910961678</updated>
+    </task>
+    <task id="LOCAL-00032" summary="feat: update cover block styles">
+      <created>1658996418257</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1658996418257</updated>
+    </task>
+    <task id="LOCAL-00033" summary="feat: update AnimatedPlan &amp; DiplomaInformation styles">
+      <created>1659004817643</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1659004817643</updated>
+    </task>
+    <task id="LOCAL-00034" summary="feat: update registration block styles">
+      <created>1659013624457</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1659013624457</updated>
+    </task>
+    <task id="LOCAL-00035" summary="feat: update Subscribe block styles">
+      <created>1659016266024</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1659016266024</updated>
+    </task>
+    <task id="LOCAL-00036" summary="feat: update footer styles">
+      <created>1659017172662</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1659017172662</updated>
+    </task>
+    <task id="LOCAL-00037" summary="feat: add animation for AnimatedPlan (not complete)">
+      <created>1659022130696</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1659022130696</updated>
+    </task>
+    <task id="LOCAL-00038" summary="feat: update variables">
+      <created>1659183762583</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1659183762583</updated>
+    </task>
+    <task id="LOCAL-00039" summary="feat: update animation in AnimatedPlan">
+      <created>1659215604583</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1659215604583</updated>
+    </task>
+    <task id="LOCAL-00040" summary="feat: add animation for start page">
+      <created>1659217533912</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1659217533912</updated>
+    </task>
+    <task id="LOCAL-00041" summary="feat: update animation">
+      <created>1659220586924</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1659220586924</updated>
+    </task>
+    <task id="LOCAL-00042" summary="feat: update animation">
+      <created>1659222889409</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1659222889409</updated>
+    </task>
+    <task id="LOCAL-00043" summary="feat: update animation in AnimatedPlan">
+      <created>1659226549291</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1659226549291</updated>
+    </task>
+    <task id="LOCAL-00044" summary="feat: add checkbox">
+      <created>1659279860432</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1659279860432</updated>
+    </task>
+    <task id="LOCAL-00045" summary="feat: update animation in AnimatedPlan">
+      <created>1659282018145</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1659282018145</updated>
+    </task>
+    <task id="LOCAL-00046" summary="feat: update animation">
+      <created>1659285258981</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1659285258981</updated>
+    </task>
+    <task id="LOCAL-00047" summary="feat: update variables">
+      <created>1659294317892</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1659294317892</updated>
+    </task>
+    <task id="LOCAL-00048" summary="feat: update timer component">
+      <created>1659294338142</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1659294338142</updated>
+    </task>
+    <task id="LOCAL-00049" summary="feat: add gh-pages">
+      <created>1659350974511</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1659350974511</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: add animation for Timer" />
+    <MESSAGE value="feat: rename animation for Timer" />
+    <MESSAGE value="feat: rename variables in Timer component" />
+    <MESSAGE value="feat: update AnimatedSpace styles" />
+    <MESSAGE value="feat: add images for AnimatedSpace" />
+    <MESSAGE value="feat: update background for AnimatedSpace" />
+    <MESSAGE value="feat: update cards block" />
+    <MESSAGE value="feat: add underline for titles" />
+    <MESSAGE value="feat: update styles" />
+    <MESSAGE value="feat: remove timer for seconds" />
+    <MESSAGE value="feat: update gitignore" />
+    <MESSAGE value="feat: update cards block styles" />
+    <MESSAGE value="feat: update cover block styles" />
+    <MESSAGE value="feat: update AnimatedPlan &amp; DiplomaInformation styles" />
+    <MESSAGE value="feat: update registration block styles" />
+    <MESSAGE value="feat: update Subscribe block styles" />
+    <MESSAGE value="feat: update footer styles" />
+    <MESSAGE value="feat: add animation for AnimatedPlan (not complete)" />
+    <MESSAGE value="feat: add animation for start page" />
+    <MESSAGE value="feat: add checkbox" />
+    <MESSAGE value="feat: update animation in AnimatedPlan" />
+    <MESSAGE value="feat: update animation" />
+    <MESSAGE value="feat: update variables" />
+    <MESSAGE value="feat: update timer component" />
+    <MESSAGE value="feat: add gh-pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add gh-pages" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="453" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1658838890742">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="453" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1658838890742" />
+    <state x="629" y="298" key="EditFileWatcherDialog" timestamp="1658677242743">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="629" y="298" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1658677242743" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1658829805450">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1658829805450" />
+    <state width="1151" height="279" key="GridCell.Tab.0.bottom" timestamp="1659294557013">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1151" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1659294557013" />
+    <state width="1151" height="279" key="GridCell.Tab.0.center" timestamp="1659294557013">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1151" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1659294557013" />
+    <state width="1151" height="279" key="GridCell.Tab.0.left" timestamp="1659294557013">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1151" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1659294557013" />
+    <state width="1151" height="279" key="GridCell.Tab.0.right" timestamp="1659294557013">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1151" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1659294557013" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1659294343777">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1659294343777" />
+    <state x="667" y="-3" width="585" height="987" key="find.popup" timestamp="1659270352348">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="-3" width="585" height="987" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1659270352348" />
+    <state x="601" y="246" width="700" height="530" key="recent.locations.popup" timestamp="1658770468019">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="601" y="246" width="700" height="530" key="recent.locations.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1658770468019" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1658873328496">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1658873328496" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1658867466132">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1658867466132" />
+  </component>
+</project>
