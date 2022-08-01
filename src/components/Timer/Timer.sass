@@ -1,0 +1,57 @@
+@import "../../styles/variables/variables"
+@import "../../styles/mixin"
+
+.timer
+  height: 108px
+  width: 266px
+  @include flex-space-between
+
+.timer__block
+  display: flex
+  flex-direction: column
+  align-items: center
+  height: 108px
+
+.timer__item
+  background: $backgroundColor
+  box-shadow: 0 5px 30px 0 #D7D3E180
+  height: 60px
+  width: 70px
+  border-radius: 16px
+  @include flex-center
+  margin-bottom: 5px
+
+.timer__item_date
+  font-family: $additionalFont
+  font-size: 32px
+  font-weight: 700
+  line-height: 38px
+  letter-spacing: 0.04em
+  text-align: center
+  color: $mainAccentColor
+
+.timer__colon
+  margin-top: -47px
+  animation-name: blinking-colon
+  animation-duration: 1.5s
+  animation-iteration-count: infinite
+  animation-timing-function: ease-in-out
+
+@keyframes blinking-colon
+  0%
+    opacity: 0
+  33%
+    opacity: 75%
+  100%
+    opacity: 100%
+
+.timer__text
+  font-family: $mainFont
+  font-size: 16px
+  line-height: 22px
+  letter-spacing: 0.04em
+  text-align: center
+  color: $mainFontColor
+
+.timer__text_textAccent
+  color: $additionalFontColor

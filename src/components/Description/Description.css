@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
+.description {
+  width: 790px;
+  margin: 200px auto 0;
+}
+
+.description__text {
+  font-family: "Rubik", sans-serif;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: #1F1D2A;
+}
+
+.description__text_accent {
+  color: #14A76C;
+}
+
+/*# sourceMappingURL=Description.css.map */

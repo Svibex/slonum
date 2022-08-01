@@ -1,0 +1,104 @@
+@import "../../styles/variables/variables"
+@import "../../styles/mixin"
+
+.registration
+  margin: 60px auto 0
+  width: 1920px
+
+.registration__container
+  margin: 0 auto
+  height: 692px
+  width: 1400px
+  @include flex-space-between
+
+.registration__banner
+  height: 476px
+  width: 490px
+  border-radius: 40px
+  border: 3px solid $mainColor
+  position: relative
+  box-shadow: 0 5px 15px 0 #14A77233
+  @include flex-space-between
+  flex-direction: column
+
+.registration__bookmark
+  position: absolute
+  top: -17px
+  left: 104px
+
+.registration__info
+  margin-top: 136px
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  width: 370px
+  height: 222px
+
+.registration__info_text
+  font-family: $additionalFont
+  font-size: 20px
+  line-height: 24px
+  letter-spacing: 0.05em
+  text-align: left
+  color: $additionalFontColor
+
+.registration__price
+  display: flex
+  height: 114px
+  width: 324px
+
+.registration__price_sale
+  font-family: $additionalFont
+  font-size: 96px
+  line-height: 114px
+  text-align: right
+  color: $mainFontColor
+
+.registration__price_withoutSale
+  font-family: $additionalFont
+  font-size: 30px
+  font-weight: 500
+  line-height: 36px
+  letter-spacing: 0.05em
+  text-align: left
+  color: $mainFontColor
+  text-decoration: 2px line-through $mainFontColor
+  padding: 14px 22px
+
+.registration__socialMedias
+  background: $mainColor
+  @include flex-space-between
+  height: 78px
+  width: 490px
+  border-radius: 0 0 40px 40px
+  margin-left: -3px
+  padding: 0 58px
+
+.registration__socialMedias_text
+  font-family: $mainFont
+  font-size: 20px
+  font-weight: 700
+  line-height: 28px
+  letter-spacing: 0.04em
+  text-align: center
+  color: $backgroundColor
+
+.registration__icons
+  @include flex-space-between
+
+.registration__icons_icon
+  background: $backgroundColor
+  border-radius: 10px
+
+#registration__vk
+  background-image: url("../../assets/image/common/vk.png")
+  border: 2px solid $backgroundColor
+  width: 39px
+  height: 39px
+
+#registration__ok
+  background-image: url("../../assets/image/registration/ok.png")
+  background-size: 39px
+  width: 39px
+  height: 39px
+  margin-left: 18px

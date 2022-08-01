@@ -1,0 +1,51 @@
+@import "./variables/variables"
+@import "reset.css"
+@import "mixin"
+
+#root
+  position: relative
+
+body
+  margin: 0
+
+button
+  border-radius: 15px
+  padding: 10px
+  font-family: $additionalFont
+  font-size: 20px
+  font-weight: 700
+  line-height: 24px
+  letter-spacing: 0.04em
+  text-align: center
+
+button:hover
+  cursor: pointer
+
+.title
+  font-family: $mainFont
+  font-size: 32px
+  font-weight: 700
+  line-height: 44px
+  letter-spacing: 0.04em
+  text-align: center
+  color: $mainFontColor
+
+li:hover
+  cursor: pointer
+
+span
+  text-decoration: 3px underline $textSelectionColor
+  text-decoration-style: wavy
+  text-underline-position: under
+
+.input
+  height: 60px
+  width: 540px
+  border-radius: 15px
+  padding: 0 20px 0 20px
+  border: 1px solid $accentFontColor
+  font-family: $additionalFont
+  font-size: 20px
+  line-height: 24px
+  letter-spacing: 0.04em
+  text-align: left

@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
+.cards {
+  margin: 200px auto 0;
+  background: url("../../assets/image/common/waves.png");
+  width: 1920px;
+  height: 604px;
+}
+
+.cards__container {
+  margin: 0 auto;
+  height: 472px;
+  width: 1395px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.cards__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  height: 370px;
+  width: 1395px;
+  border-radius: 16px;
+}
+
+/*# sourceMappingURL=Cards.css.map */

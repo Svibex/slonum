@@ -1,0 +1,360 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
+.animatedSpace {
+  position: relative;
+  height: 810px;
+  width: 900px;
+}
+
+.animatedSpace__background {
+  background-image: url("../../assets/image/animatedSpace/space-background.png"), url("../../assets/image/animatedSpace/stars.png"), linear-gradient(326.12deg, rgb(93, 119, 255) 17.95%, rgb(101, 57, 193) 89.78%);
+  background-size: 864px 693px, 860px 690px;
+  background-position: right 13px, right top;
+  background-repeat: no-repeat;
+  height: 810px;
+  width: 900px;
+  animation-name: background-appearance;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  position: absolute;
+}
+
+@keyframes background-appearance {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 50%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+.animatedSpace__animationBlock {
+  position: relative;
+  height: 810px;
+  width: 900px;
+  animation-name: background-appearance;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+}
+
+.animatedSpace__girl {
+  position: absolute;
+  top: 484px;
+  left: 409px;
+  z-index: 5;
+}
+
+.animatedSpace__paperAirplanes {
+  position: absolute;
+  top: 730px;
+  left: 206px;
+}
+
+.animatedSpace__brush {
+  position: absolute;
+  top: 638px;
+  left: 430px;
+  transform: rotate(10deg);
+  animation-name: writing;
+  animation-duration: 4.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes writing {
+  0% {
+    transform: rotate(0);
+    top: 635px;
+    left: 433px;
+  }
+  25% {
+    top: 633px;
+    left: 440px;
+    transform: rotate(66deg);
+  }
+  50% {
+    top: 628px;
+    left: 425px;
+    transform: rotate(-24deg);
+  }
+  100% {
+    top: 638px;
+    left: 430px;
+    transform: rotate(10deg);
+  }
+}
+.animatedSpace__alarm, .animatedSpace__atom, .animatedSpace__balloon,
+.animatedSpace__division, .animatedSpace__elephant, .animatedSpace__lamp,
+.animatedSpace__palette, .animatedSpace__plane, .animatedSpace__planet1,
+.animatedSpace__planet2, .animatedSpace__planet3,
+.animatedSpace__plus, .animatedSpace__rocket {
+  position: absolute;
+  animation-iteration-count: infinite;
+  animation-duration: 12s;
+}
+
+.animatedSpace__alarm {
+  top: 216px;
+  left: 171px;
+  animation-name: alarm;
+}
+
+@keyframes alarm {
+  0% {
+    transform: scale(1) rotate(0);
+  }
+  50% {
+    transform: scale(0.7) rotate(180deg);
+  }
+  100% {
+    transform: scale(1) rotate(360deg);
+  }
+}
+.animatedSpace__atom {
+  top: 132px;
+  left: 130px;
+  animation-name: atom;
+}
+
+@keyframes atom {
+  0% {
+    transform: scale(1) rotate(0);
+  }
+  50% {
+    transform: scale(0) rotate(45deg);
+  }
+  100% {
+    transform: scale(1) rotate(0);
+  }
+}
+.animatedSpace__balloon {
+  top: 294px;
+  left: 401px;
+  animation-name: balloon;
+}
+
+@keyframes balloon {
+  0% {
+    top: 294px;
+  }
+  50% {
+    top: 324px;
+  }
+  100% {
+    top: 294px;
+  }
+}
+.animatedSpace__division {
+  top: 183px;
+  left: 558px;
+  animation-name: division;
+}
+
+@keyframes division {
+  0% {
+    transform: scale(1);
+    opacity: 100%;
+  }
+  50% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 100%;
+  }
+}
+.animatedSpace__elephant {
+  top: 223px;
+  left: 617px;
+  animation-name: elephant;
+  animation-direction: normal, reverse;
+  animation-duration: 6s;
+}
+
+@keyframes elephant {
+  0% {
+    transform: rotate(-11deg);
+    left: 617px;
+  }
+  50% {
+    transform: rotate(30deg);
+    left: 627px;
+  }
+  100% {
+    transform: rotate(-11deg);
+    left: 617px;
+  }
+}
+.animatedSpace__lamp {
+  top: 324px;
+  left: 508px;
+  animation-name: lamp;
+  animation-delay: 4.3s;
+  transform: rotate(15deg);
+}
+
+@keyframes lamp {
+  0% {
+    transform: rotate(15deg);
+  }
+  34% {
+    transform: rotate(40deg);
+  }
+  51% {
+    transform: rotate(-45deg);
+  }
+  68% {
+    transform: rotate(-65deg);
+  }
+  85% {
+    transform: rotate(25deg);
+  }
+  100% {
+    transform: rotate(15deg);
+  }
+}
+.animatedSpace__palette {
+  top: 119px;
+  left: 760px;
+  animation-name: palette;
+}
+
+@keyframes palette {
+  0% {
+    transform: rotate(0deg);
+  }
+  24% {
+    transform: rotate(0deg);
+  }
+  76% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.animatedSpace__plane {
+  top: 327px;
+  left: 756px;
+  animation-name: plane;
+}
+
+@keyframes plane {
+  0% {
+    transform: scale(0.5) rotate(0deg);
+  }
+  50% {
+    transform: scale(1) rotate(45deg);
+  }
+  100% {
+    transform: scale(0.5) rotate(0deg);
+  }
+}
+.animatedSpace__planet1 {
+  top: 80px;
+  left: 260px;
+  animation-name: planet1;
+  animation-direction: normal, reverse;
+  animation-duration: 6s;
+}
+
+@keyframes planet1 {
+  0% {
+    top: 80px;
+    left: 260px;
+  }
+  50% {
+    top: 100px;
+    left: 210px;
+  }
+  100% {
+    top: 80px;
+    left: 260px;
+  }
+}
+.animatedSpace__planet2 {
+  top: 132px;
+  left: 473px;
+  animation-name: planet2;
+  animation-direction: normal, reverse;
+  animation-duration: 6s;
+  animation-delay: 3.8s;
+}
+
+@keyframes planet2 {
+  0% {
+    left: 473px;
+  }
+  50% {
+    left: 503px;
+  }
+  100% {
+    left: 473px;
+  }
+}
+.animatedSpace__planet3 {
+  top: 457px;
+  left: 365px;
+  animation-name: planet3;
+}
+
+@keyframes planet3 {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-45deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.animatedSpace__plus {
+  top: 238px;
+  left: 478px;
+  animation-name: plus;
+}
+
+@keyframes plus {
+  0% {
+    transform: scale(1);
+    opacity: 100%;
+  }
+  48% {
+    transform: scale(1);
+    opacity: 100%;
+  }
+  74% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1.2);
+    opacity: 100%;
+  }
+}
+.animatedSpace__rocket {
+  top: 350px;
+  left: 140px;
+  animation-name: rocket;
+}
+
+@keyframes rocket {
+  0% {
+    top: 350px;
+  }
+  50% {
+    top: 420px;
+  }
+  100% {
+    top: 350px;
+  }
+}
+
+/*# sourceMappingURL=AnimatedSpace.css.map */

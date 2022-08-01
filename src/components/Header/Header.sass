@@ -1,0 +1,63 @@
+@import "../../styles/variables/variables"
+@import "../../styles/mixin"
+
+.header
+  position: absolute
+  z-index: 5
+  top: 40px
+
+.header__container
+  height: 50px
+  width: 1423px
+  @include flex-space-between
+
+.header__logo
+  height: 50px
+  width: 195px
+  @include flex-space-between
+
+.header__title
+  height: 41px
+  width: 140px
+  @include flex-center
+  font-size: 34px
+  line-height: 40px
+  text-align: left
+  font-family: $additionalFont
+
+.header__title_text1
+  font-weight: 500
+  color: $mainFontColor
+
+.header__title_text2
+  font-weight: 400
+  color: $mainAccentColor
+
+.header__button
+  height: 44px
+  width: 180px
+  border: 1px solid $mainFontColor
+  color: $mainFontColor
+  background: $backgroundColor
+  font-weight: 400
+  font-family: $additionalFont
+  margin-right: 20px
+  animation-name: button-change-color
+  animation-duration: 2s
+
+@keyframes button-change-color
+  0%
+    border: 1px solid $mainAccentColor
+    color: $backgroundColor
+    background: $mainAccentColor
+    font-weight: 700
+  25%
+    border: 1px solid $mainAccentColor
+    color: $backgroundColor
+    background: $mainAccentColor
+    font-weight: 700
+  50%
+    opacity: 50%
+    font-weight: 400
+  100%
+    opacity: 100%
